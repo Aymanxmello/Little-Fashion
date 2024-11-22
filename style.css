@@ -1,0 +1,141 @@
+.logo {
+    color: rgb(255, 119, 0);
+    font-weight: bold;
+    font-size: 23px;
+}
+
+div span {
+    color: black;
+}
+
+.img1 {
+    background-image: url(R.jpg);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    height: 250px;
+    box-shadow: 5px 5px 20px rgb(0, 0, 0, 0.2);
+    position: relative;
+}
+
+.img1:hover {
+    box-shadow: 5px 5px 60px rgba(5, 113, 5, 0.7);
+}
+
+.img2:hover {
+    box-shadow: 5px 5px 60px rgba(204, 207, 10, 0.7);
+}
+
+.img3:hover {
+    box-shadow: 5px 5px 60px rgba(207, 115, 10, 0.7);
+}
+
+.l1{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    right: 10px;
+    top: 10px;
+    transition: all ease-in-out .1s;
+}
+
+.l1:hover {
+    color: rgb(216, 61, 61);
+}
+
+.a1:hover {
+    color: rgb(255, 119, 0);
+}
+
+.n1 {
+    margin-bottom: 40px;
+}
+
+.s1 {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    top: 10px;
+    left: 10px;
+    padding: 0px 9px;
+    border-radius: 2px;
+    transition: all ease-in-out .2s;
+}
+
+.s1:hover {
+    background-color: rgb(255, 119, 0);
+    color: white;
+}
+
+.img2 {
+    background-image: url(rr.jpg);
+    background-position: top;
+    background-repeat: repeat;
+    background-size: cover;
+    height: 250px;
+    position: relative;
+    box-shadow: 5px 5px 20px rgb(0, 0, 0, 0.2);
+}
+
+.img3 {
+    background-image: url(OIP.jpg);
+    background-position: left;
+    background-repeat: repeat;
+    background-size: cover;
+    height: 250px;
+    position: relative;
+    box-shadow: 5px 5px 20px rgb(0, 0, 0, 0.2);
+}
+
+h2{
+    font-size: 21px;
+}
+
+.txth {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text {
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+p {
+    margin: 0;
+}
+
+h1{
+    margin-bottom: 30px;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 31px;
+    font-weight: bold;
+}
+
+.ff {
+    text-align: center;
+    padding: 10px;
+}
+
+.imgs1 {
+    background-image: url(R.jpg);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    height: 250px;
+}
+
+.imgs2 {
+    background-image: url(rr.jpg);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    height: 250px;
+}
+
+.imgs3 {
+    background-image: url(OIP.jpg);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    height: 250px;
+}
